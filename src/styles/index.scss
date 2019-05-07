@@ -1,3 +1,46 @@
-/* 
+/*
     General Styles
 */
+.nav-link{
+    color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+.p{
+    padding-top:18px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.mi-obra{
+    background-color:#062D41;
+}
+.jumbotron{
+    margin-top: 65px;
+    // background-color: none !important;
+    // background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
+    // background-position: center;
+    // position: relative;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-size: 100%;
+    // background-attachment: fixed;
+}
+
+.parallax{
+    height: 600px;
+    background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.galeria{
+    background-color: black;
+}
