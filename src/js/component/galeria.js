@@ -114,6 +114,13 @@ export class Galeria extends React.Component {
 						</div>
 					</div>
 				</div>
+				<hr />
+				<div className="text-center">
+					<button type="button" className="btn btn-outline-success">
+						Success
+					</button>
+				</div>
+				<hr />
 			</section>
 		);
 	}

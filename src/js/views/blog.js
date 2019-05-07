@@ -14,15 +14,15 @@ export class Blog extends React.Component {
 				<div className="container">
 					<section className="pt-4" id="mi obra">
 						<div className="row mi-obra">
-							<div className="col-12 p-2 col-md-2">
+							<div className="col-12 p-2 col-md-3">
 								<img
 									src="https://www.aboutespanol.com/thmb/rNgTw2yNu25YpnuAQ-AJ47ZVCj4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/PabloPicasso-5ad21030a474be00364c5dcc.jpg"
 									className="card-img"
 									alt="..."
 								/>
 							</div>
-							<div className="col-12 col-md-10 ">
-								<p className="text-justify text-white p">
+							<div className="col-12 col-md-9 ">
+								<p className="text-justify p">
 									Mi obra es el resultado de una indagación en el ámbito de la visualidad pictórica de
 									herencia post-renacentista, modelada por los recursos representacionales de la
 									tradición occidental. Me interesa sobremanera el modo en que el Barroco histórico
