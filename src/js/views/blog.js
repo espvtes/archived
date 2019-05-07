@@ -4,6 +4,7 @@ import { Jumbotron } from "../component/jumbotron.js";
 import { Galeria } from "../component/galeria.js";
 import { Curriculum } from "../component/curriculum.js";
 import { Link } from "react-router-dom";
+import "../../styles/index.scss";
 
 export class Blog extends React.Component {
 	render() {

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export class Galeria extends React.Component {
 	render() {
 		return (
@@ -116,9 +116,11 @@ export class Galeria extends React.Component {
 				</div>
 				<hr />
 				<div className="text-center">
-					<button type="button" className="btn btn-outline-success">
-						Success
-					</button>
+					<Link to="/galeria2">
+						<button type="button" className="btn btn-outline-success">
+							Success
+						</button>
+					</Link>
 				</div>
 				<hr />
 			</section>
