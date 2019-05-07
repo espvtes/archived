@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../component/navbar.js";
 import { Jumbotron } from "../component/jumbotron.js";
-import { Galeria } from "../component/galeria.js";
+import { Obras } from "../component/obras.js";
 import { Curriculum } from "../component/curriculum.js";
 import { Link } from "react-router-dom";
 import "../../styles/index.scss";
@@ -41,8 +41,7 @@ export class Blog extends React.Component {
 						</div>
 					</section>
 					<hr />
-
-					<Galeria />
+					<Obras />
 					<Curriculum />
 				</div>
 			</div>

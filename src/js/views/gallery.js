@@ -1,12 +1,12 @@
-import React from 'react';
-import { Galeria2 } from "../component/galeria2.js";
+import React from "react";
+import { Galeria } from "../component/galeria.js";
 
-export class Gallery extends React.Component{
-    render(){
-        return(
-            <div>
-            <Galeria2/>
-            </div>
-        );
-    }
+export class Gallery extends React.Component {
+	render() {
+		return (
+			<div>
+				<Galeria />
+			</div>
+		);
+	}
 }
