@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/index.scss";
 
 export class Galeria extends React.Component {
 	render() {
 		return (
-			<div className="galeria2">
+			<div className="galeria pt-4">
 				<div className="card-deck">
 					<div className="card">
 						<img
@@ -76,7 +77,7 @@ export class Galeria extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="card-deck">
+				<div className="card-deck pt-2">
 					<div className="card">
 						<img
 							src="https://aws.revistavanityfair.es/prod/designs/v1/assets/785x589/57889.jpg"

@@ -9,12 +9,12 @@ import "../../styles/index.scss";
 export class Blog extends React.Component {
 	render() {
 		return (
-			<div className="container-fluid">
+			<div className="container-fluid parallax">
 				<Jumbotron />
 				<hr />
 				<div className="container">
-					<section className="pt-4" id="mi obra">
-						<div className="row mi-obra">
+					<section className="pt-4" id="autor">
+						<div className="row autor text-white shadow-none p-3 mb-5 rounded">
 							<div className="col-12 p-2 col-md-3">
 								<img
 									src="https://www.aboutespanol.com/thmb/rNgTw2yNu25YpnuAQ-AJ47ZVCj4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/PabloPicasso-5ad21030a474be00364c5dcc.jpg"

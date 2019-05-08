@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../../styles/index.scss";
 
 export class Obras extends React.Component {
 	render() {
 		return (
-			<section id="galeria">
-				<div className="row galeria p-4">
+			<section id="galeria" className="section-obras">
+				<div className="row obras p-4 shadow rounded">
 					<div className="row">
 						<div className="col-12 col-sm-3">
 							<img

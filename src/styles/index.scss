@@ -16,7 +16,7 @@ html {
 }
 .jumbotron{
     margin-top: 65px;
-    // background-color: none !important;
+    background-color: transparent;
     // background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
     // background-position: center;
     // position: relative;
@@ -33,15 +33,29 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
 
 }
 .galeria{
     background-color: black;
 }
-.container-fluid{
-    background-color: #93AFBD;
-}
+// .container-fluid{
+//     background-color: #93AFBD;
+// }
 .navbar{
     background-color:#032F46;
 
+}
+.card-deck{
+    padding-top: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+.autor{
+    background-color:#618DA0;
+}
+
+.obras{
+    background-color: black;
 }

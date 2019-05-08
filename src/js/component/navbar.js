@@ -12,9 +12,11 @@ export class Navbar extends React.Component {
 		return (
 			<div>
 				<nav className="navbar fixed-top navbar-light">
-					<a className="navbar-brand text-white" href="#">
-						LOGO
-					</a>
+					<Link to="/blog">
+						<button type="button" className="btn btn-link text-white">
+							LOGO
+						</button>
+					</Link>
 					<ul className="nav justify-content-center">
 						<li className="nav-item">
 							<a className="navbar-brand text-white" href="#">
@@ -24,8 +26,8 @@ export class Navbar extends React.Component {
 					</ul>
 					<ul className="nav justify-content-end">
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#mi obra">
-								Mi Obra
+							<a className="navbar-brand text-white" href="#autor">
+								Autor
 							</a>
 						</li>
 						<li className="nav-item">
