@@ -1,10 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export class Curriculum extends React.Component {
 	render() {
 		return (
 			<section id="curriculum">
-				<div className="row py-4 curriculum">
+				<div className="row py-4curriculum">
 					<div className="col-12">
 						<h2 className="">Resumen Curricular</h2>
 						<p className="">
@@ -34,6 +34,13 @@ export class Curriculum extends React.Component {
 							non-characteristic words etc.
 						</p>
 					</div>
+				</div>
+				<div className="text-center">
+					<Link to="/trayectoria">
+						<button type="button" className="btn btn-warning">
+							CURRICULUM
+						</button>
+					</Link>
 				</div>
 			</section>
 		);

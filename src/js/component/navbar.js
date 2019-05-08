@@ -11,8 +11,8 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar fixed-top navbar-light">
-					<Link to="/blog">
+				<nav className="navbar fixed-top navbar-light bg-info">
+					<Link to="/">
 						<button type="button" className="btn btn-link text-white">
 							LOGO
 						</button>
@@ -28,7 +28,7 @@ export class Navbar extends React.Component {
 						<li className="nav-item">
 							<a className="navbar-brand text-white" href="#autor">
 								Autor
-							</a>
+							</a>{" "}
 						</li>
 						<li className="nav-item">
 							<a className="navbar-brand text-white" href="#curriculum">

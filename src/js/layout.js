@@ -5,9 +5,9 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
-import { Blog } from "./views/blog.js";
 import { Gallery } from "./views/gallery.js";
 import { Galeria } from "./component/galeria.js";
+import { Trayectoria } from "./component/trayectoria.js";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -27,8 +27,8 @@ export class Layout extends React.Component {
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
-							<Route path="/blog" component={Blog} />
 							<Route path="/gallery" component={Gallery} />
+							<Route path="/trayectoria" component={Trayectoria} />
 							<Route path="/galeria" component={Galeria} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />

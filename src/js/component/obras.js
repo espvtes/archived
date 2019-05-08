@@ -5,8 +5,8 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<section id="galeria" className="section-obras">
-				<div className="row obras p-4 shadow rounded">
+			<section id="galeria" className="section-obras pt-4">
+				<div className="row obras text-white p-4 shadow rounded">
 					<div className="row">
 						<div className="col-12 col-sm-3">
 							<img
@@ -15,7 +15,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -28,7 +28,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -41,7 +41,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -54,7 +54,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -69,7 +69,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -82,7 +82,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -95,7 +95,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -108,7 +108,7 @@ export class Obras extends React.Component {
 								alt="..."
 							/>
 							<div className="row">
-								<div className="col-12">
+								<div className="col-12 pt-2">
 									<h5 className="title">title</h5>
 									<p className="description">Card description</p>
 								</div>
@@ -119,8 +119,8 @@ export class Obras extends React.Component {
 				<hr />
 				<div className="text-center">
 					<Link to="/galeria">
-						<button type="button" className="btn btn-outline-success">
-							Success
+						<button type="button" className="btn btn-warning">
+							GALERIA
 						</button>
 					</Link>
 				</div>
