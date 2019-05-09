@@ -15,7 +15,6 @@ html {
     font-size: 16px;
 }
 .jumbotron{
-    margin-top: 65px;
     height:600px;
     // background-color: transparent;
     background-image: url('https://2.bp.blogspot.com/-Y3pDtMDrDII/V3ag1Y-dC4I/AAAAAAABXdQ/CzuV5Pmd7NIizbA98KDptndCuMvRXTK6gCLcB/s1600/lkllll.jpg');
@@ -24,6 +23,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    // position: fixed;
 }
 
 .parallax{
@@ -40,7 +40,7 @@ html {
     background-color: black;
 }
 .navbar{
-    // background-color:black;
+    background-color:none !important;
 
 }
 .card-deck{
@@ -62,6 +62,8 @@ html {
     // background-position: center;
     // background-repeat: no-repeat;
     // background-size: cover;
+
+
 }
 .trayectoria{
     margin-top: 100px;
@@ -72,4 +74,7 @@ html {
 
 body{
     // background-color: black;
+}
+.title{
+    font-family: 'Shadows Into Light', cursive;
 }

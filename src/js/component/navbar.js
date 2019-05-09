@@ -11,19 +11,12 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar fixed-top navbar-light bg-info">
+				<nav className="navbar fixed-top navbar-light">
 					<Link to="/">
 						<button type="button" className="btn btn-link text-white">
 							LOGO
 						</button>
 					</Link>
-					<ul className="nav justify-content-center">
-						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#">
-								Raydel Griñan
-							</a>
-						</li>
-					</ul>
 					<ul className="nav justify-content-end">
 						<li className="nav-item">
 							<a className="navbar-brand text-white" href="#autor">
@@ -47,7 +40,7 @@ export class Navbar extends React.Component {
 						</li>
 						<li className="nav-item">
 							<a className="navbar-brand text-white" href="#galeria">
-								Galeria
+								Obras
 							</a>
 						</li>
 					</ul>
