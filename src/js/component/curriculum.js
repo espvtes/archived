@@ -5,7 +5,7 @@ export class Curriculum extends React.Component {
 		return (
 			<section id="curriculum">
 				<div className="row py-4 curriculum">
-					<div className="col-12">
+					<div className="col-12 ">
 						<h2 className="">Resumen Curricular</h2>
 						<p className="">
 							AThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those

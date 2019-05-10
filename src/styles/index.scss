@@ -13,16 +13,19 @@ html {
     padding-right: 10px;
     text-align: center;
     font-size: 16px;
+    // color: white;
 }
 .jumbotron{
-    height:600px;
+    height:800px;
     // background-color: transparent;
-    background-image: url('https://2.bp.blogspot.com/-Y3pDtMDrDII/V3ag1Y-dC4I/AAAAAAABXdQ/CzuV5Pmd7NIizbA98KDptndCuMvRXTK6gCLcB/s1600/lkllll.jpg');
+    background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin-top: 55px;
+
     // position: fixed;
 }
 
@@ -37,10 +40,10 @@ html {
 
 }
 .galeria{
-    background-color: black;
+    // background-color: black;
 }
 .navbar{
-    background-color:none !important;
+    background-color:#EEAD02;
 
 }
 .card-deck{
@@ -50,11 +53,12 @@ html {
     padding-bottom: 40px;
 }
 .autor{
-    // background-color:none !important;
+    // border: 1px solid #EEAD02;
 }
 
 .obras{
-    background-color: black;
+    // background-color: black;
+    // border: 1px solid #EEAD02;
 }
 .container-fluid{
     // background-image: url('https://cdnb.20m.es/sites/73/2016/02/Mutiny.jpg');
@@ -62,6 +66,7 @@ html {
     // background-position: center;
     // background-repeat: no-repeat;
     // background-size: cover;
+    // background-color:black;
 
 
 }
@@ -72,9 +77,6 @@ html {
     margin-bottom: 30px;
 }
 
-body{
-    // background-color: black;
-}
 .title{
     font-family: 'Shadows Into Light', cursive;
 }

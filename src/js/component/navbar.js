@@ -13,33 +13,33 @@ export class Navbar extends React.Component {
 			<div>
 				<nav className="navbar fixed-top navbar-light">
 					<Link to="/">
-						<button type="button" className="btn btn-link text-white">
+						<button type="button" className="btn btn-link text-black">
 							LOGO
 						</button>
 					</Link>
 					<ul className="nav justify-content-end">
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#autor">
+							<a className="navbar-brand" href="#autor">
 								Autor
 							</a>{" "}
 						</li>
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#curriculum">
+							<a className="navbar-brand" href="#curriculum">
 								Curriculum
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#contacto">
+							<a className="navbar-brand" href="#contacto">
 								Contacto
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#proyectos">
+							<a className="navbar-brand" href="#proyectos">
 								Proyectos
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="navbar-brand text-white" href="#galeria">
+							<a className="navbar-brand" href="#galeria">
 								Obras
 							</a>
 						</li>
