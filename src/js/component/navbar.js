@@ -12,16 +12,20 @@ export class Navbar extends React.Component {
 		return (
 			<div>
 				<nav className="navbar fixed-top navbar-light">
-					<Link to="/">
-						<button type="button" className="btn btn-link text-black">
-							LOGO
-						</button>
-					</Link>
+					<ul className="nav">
+						<li className="nav-item">
+							<Link to="/">
+								<a className="navbar-brand" href="#">
+									Raydel Griñan
+								</a>
+							</Link>
+						</li>
+					</ul>
 					<ul className="nav justify-content-end">
 						<li className="nav-item">
 							<a className="navbar-brand" href="#autor">
 								Autor
-							</a>{" "}
+							</a>
 						</li>
 						<li className="nav-item">
 							<a className="navbar-brand" href="#curriculum">
@@ -39,7 +43,7 @@ export class Navbar extends React.Component {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="navbar-brand" href="#galeria">
+							<a className="navbar-brand" href="#obras">
 								Obras
 							</a>
 						</li>

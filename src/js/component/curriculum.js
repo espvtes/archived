@@ -35,7 +35,7 @@ export class Curriculum extends React.Component {
 						</p>
 					</div>
 				</div>
-				<div className="text-center">
+				<div className="last-btn text-center">
 					<Link to="/trayectoria">
 						<button type="button" className="btn btn-warning">
 							CURRICULUM

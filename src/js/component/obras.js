@@ -5,8 +5,8 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<section id="galeria" className="section-obras pt-4">
-				<div className="row obras text-white p-4 shadow rounded">
+			<section id="obras" className="section-obras pt-4">
+				<div className="row obras text-white p-4">
 					<div className="row">
 						<div className="col-12 col-sm-3">
 							<img
@@ -116,7 +116,6 @@ export class Obras extends React.Component {
 						</div>
 					</div>
 				</div>
-				<hr />
 				<div className="text-center">
 					<Link to="/galeria">
 						<button type="button" className="btn btn-warning">

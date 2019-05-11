@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Navbar } from "../component/navbar.js";
 import { Jumbotron } from "../component/jumbotron.js";
 import { Obras } from "../component/obras.js";
+import { Proyectos } from "../component/proyectos.js";
 import { Curriculum } from "../component/curriculum.js";
 import "../../styles/home.scss";
 
@@ -12,9 +13,9 @@ export class Home extends React.Component {
 			<div className="container-fluid">
 				<Jumbotron />
 				<hr />
-				<div className="container" id="autor">
-					<section className="pt-4">
-						<div className="row autor shadow rounded">
+				<div className="container">
+					<section className="pt-4" id="autor">
+						<div className="row autor">
 							<div className="col-12 p-2 col-md-3">
 								<img
 									src="https://www.aboutespanol.com/thmb/rNgTw2yNu25YpnuAQ-AJ47ZVCj4=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/PabloPicasso-5ad21030a474be00364c5dcc.jpg"
@@ -43,6 +44,7 @@ export class Home extends React.Component {
 					<hr />
 					<Obras />
 					<Curriculum />
+					<Proyectos />
 				</div>
 			</div>
 		);
