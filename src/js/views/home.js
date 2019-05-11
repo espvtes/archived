@@ -4,6 +4,7 @@ import { Navbar } from "../component/navbar.js";
 import { Jumbotron } from "../component/jumbotron.js";
 import { Obras } from "../component/obras.js";
 import { Proyectos } from "../component/proyectos.js";
+import { Contact } from "../component/contact.js";
 import { Curriculum } from "../component/curriculum.js";
 import "../../styles/home.scss";
 
@@ -43,6 +44,7 @@ export class Home extends React.Component {
 					<Obras />
 					<Curriculum />
 					<Proyectos />
+					<Contact />
 				</div>
 			</div>
 		);

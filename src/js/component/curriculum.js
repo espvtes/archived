@@ -4,6 +4,7 @@ export class Curriculum extends React.Component {
 	render() {
 		return (
 			<div id="curriculum" className="pt-4">
+				<hr />
 				<div className="titles">
 					<h2>Curriculum</h2>
 				</div>

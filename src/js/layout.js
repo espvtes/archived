@@ -13,7 +13,7 @@ import { Trayectoria } from "./component/trayectoria.js";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
-import { Footer } from "./component/footer";
+// import { Footer } from "./component/footer";
 
 //create your first component
 export class Layout extends React.Component {
@@ -37,7 +37,6 @@ export class Layout extends React.Component {
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
-						<Footer />
 					</ScrollToTop>
 				</BrowserRouter>
 			</div>

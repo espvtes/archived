@@ -5,12 +5,12 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<div id="obras" className="section-obras pt-4">
-				<div className="titles">
+			<div id="obras" className="bg-dark shadow rounded">
+				<div className="titles text-white pt-4 px-4">
 					<h2>Obras</h2>
 				</div>
 				<br />
-				<div className="row obras text-white">
+				<div className="row px-4 text-white">
 					<div className="col-12 col-sm-3">
 						<img
 							src="https://aws.revistavanityfair.es/prod/designs/v1/assets/785x589/57889.jpg"
@@ -64,7 +64,7 @@ export class Obras extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row text-white px-4">
 					<div className="col-12 col-sm-3">
 						<img
 							src="https://aws.revistavanityfair.es/prod/designs/v1/assets/785x589/57889.jpg"
@@ -120,7 +120,7 @@ export class Obras extends React.Component {
 				</div>
 				<div className="text-center">
 					<Link to="/galeria">
-						<button type="button" className="btn btn-warning">
+						<button type="button" className="btn btn-outline-warning">
 							GALERIA
 						</button>
 					</Link>

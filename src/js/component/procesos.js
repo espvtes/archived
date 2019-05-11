@@ -3,11 +3,10 @@ import React from "react";
 export class Procesos extends React.Component {
 	render() {
 		return (
-			<div className="procesos px-4">
+			<div className="container-fluid">
 				<div className="titles">
-					<h2>Procesos</h2>
+					<h2 className="titles pt-4 pl-4">Procesos</h2>
 				</div>
-
 				<div className="row px-4">
 					<div className="col-12">
 						<div className="card-deck">

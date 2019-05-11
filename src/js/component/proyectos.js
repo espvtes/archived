@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 export class Proyectos extends React.Component {
 	render() {
 		return (
-			<div className="pt-4" id="proyectos">
-				<div className="titles">
-					<h2>Proyectos</h2>
+			<div className="bg-dark shadow rounded pt-4" id="proyectos">
+				<div className="titles px-4">
+					<h2 className="text-white pl-4">Proyectos</h2>
 				</div>
-				<div className="row">
+				<div className="row px-4">
 					<div className="col-12">
 						<div className="card-deck">
 							<div className="card">
@@ -67,7 +67,7 @@ export class Proyectos extends React.Component {
 
 				<div className="text-center">
 					<Link to="/procesos">
-						<button type="button" className="btn btn-warning">
+						<button type="button" className="btn btn-outline-warning">
 							Proyectos en proceso
 						</button>
 					</Link>
