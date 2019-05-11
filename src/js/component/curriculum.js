@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export class Curriculum extends React.Component {
 	render() {
 		return (
-			<section id="curriculum">
+			<div id="curriculum">
 				<div className="row py-4 curriculum">
 					<div className="col-12 ">
 						<h2 className="">Resumen Curricular</h2>
@@ -42,7 +42,8 @@ export class Curriculum extends React.Component {
 						</button>
 					</Link>
 				</div>
-			</section>
+				<hr />
+			</div>
 		);
 	}
 }

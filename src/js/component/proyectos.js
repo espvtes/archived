@@ -4,8 +4,8 @@ export class Proyectos extends React.Component {
 	render() {
 		return (
 			<div className="container">
-				<h2>Obras and proceso</h2>
 				<div className="row pt-4" id="proyectos">
+					<h2>Obras and proceso</h2>
 					<div className="col-12">
 						<div className="card-deck">
 							<div className="card">
@@ -62,7 +62,7 @@ export class Proyectos extends React.Component {
 						</div>
 					</div>
 				</div>
-				<hr />
+
 				<div className="text-center">
 					<Link to="/procesos">
 						<button type="button" className="btn btn-warning">
@@ -70,6 +70,7 @@ export class Proyectos extends React.Component {
 						</button>
 					</Link>
 				</div>
+				<hr />
 			</div>
 		);
 	}
