@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 export class Proyectos extends React.Component {
 	render() {
 		return (
-			<div className="container">
-				<div className="row pt-4" id="proyectos">
-					<h2>Obras and proceso</h2>
+			<div className="pt-4" id="proyectos">
+				<div className="titles">
+					<h2>Proyectos</h2>
+				</div>
+				<div className="row">
 					<div className="col-12">
 						<div className="card-deck">
 							<div className="card">
