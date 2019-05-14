@@ -9,9 +9,12 @@ export class Navbar extends React.Component {
 		this.myRef = React.createRef();
 	}
 	render() {
+		const navStyle = {
+			backgroundColor: "#EDAF05"
+		};
 		return (
 			<div>
-				<nav className="navbar sticky-top navbar-light bg-dark">
+				<nav className="navbar fixed-top navbar-light" style={navStyle}>
 					<ul className="nav">
 						<li className="nav-item">
 							<Link to="/">
