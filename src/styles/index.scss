@@ -6,104 +6,25 @@ html {
   scroll-behavior: smooth;
 
 }
-.autor-img{
-    padding-top: 89px;
-    width: 100%;
-}
-.obras{
-    margin-top: 170px;
-}
-.titles{
-    padding-top:50px;
-}
-// .procesos-card{
-//     padding-top: 100px;
+
+// .jumbotron{
+//     height:400px;
+//     background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
+//     background-position: center;
+//     position: relative;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-attachment: fixed;
+//     // margin-top: 100px;
 // }
-.p{
-    padding-top:90px;
-    // padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    font-size: 16px;
-    // color: white;
-}
-.jumbotron{
-    height:800px;
-    background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    // margin-top: 100px;
-}
 
 .parallax{
     height: 600px;
-    background-image: url('https://cdnb.20m.es/sites/73/2016/02/Mutiny.jpg');
+    background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 
-}
-.navbar{
-    background-color:#EEAD02;
-
-}
-.card-deck{
-    padding-top: 65px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 40px;
-}
-
-.trayectoria{
-    margin-top: 100px;
-}
-.container{
-    margin-bottom: 400px;
-}
-
-.footer{
-    background-color:#EEAD02;
-}
-
-.container-fluid{
-    background-color: #F9ECC8;
-}
-.contact{
-    padding-top:50px;
-    background-color: #EEAD02;
-}
-
-
-// galeria some samples styles
-.img-ch{
-  display: block;
-  width: 100%;
-  height: auto;
-
-}
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.imagen-parent:hover .overlay {
-  opacity: 1;
 }

@@ -11,7 +11,7 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<div>
-				<nav className="navbar fixed-top navbar-light">
+				<nav className="navbar sticky-top navbar-light bg-dark">
 					<ul className="nav">
 						<li className="nav-item">
 							<Link to="/">

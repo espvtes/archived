@@ -5,11 +5,6 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
-import { Gallery } from "./views/gallery.js";
-import { Galeria } from "./component/galeria.js";
-import { Procesos } from "./component/procesos.js";
-import { Proyectos } from "./component/proyectos.js";
-import { Trayectoria } from "./component/trayectoria.js";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -25,15 +20,10 @@ export class Layout extends React.Component {
 			<div className="d-flex flex-column h-100">
 				<BrowserRouter>
 					<ScrollToTop>
-						<Navbar href="#id" />{" "}
+						<Navbar />
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
-							<Route path="/gallery" component={Gallery} />
-							<Route path="/trayectoria" component={Trayectoria} />
-							<Route path="/procesos" component={Procesos} />
-							<Route path="/proyectos" component={Proyectos} />
-							<Route path="/galeria" component={Galeria} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>
