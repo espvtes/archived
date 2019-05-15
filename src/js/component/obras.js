@@ -1,12 +1,15 @@
 import React from "react";
+import "../../styles/index.scss";
 
 export class Obras extends React.Component {
 	render() {
+		const obrasStyles = {
+			border: "2px solid black"
+		};
 		return (
-			<section id="obras" className="shadow rounded bg-dark p-4">
-				<hr />
+			<section id="obras" className="obras  rounded p-4" style={obrasStyles}>
 				<div className="row pt-4">
-					<div className="col-12 text-white">
+					<div className="col-12 text-dark">
 						<h5>Obras</h5>
 					</div>
 				</div>
