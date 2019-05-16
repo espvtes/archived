@@ -16,22 +16,32 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    // margin-top: 100px;
 }
-
 .parallax{
-    height: 600px;
-    background-image: url('https://americavive.online/wp-content/uploads/2018/06/hiperrealismo.png');
+    height: 400px;
+    background-image: url('https://www.dhresource.com/0x0s/f2-albu-g10-M00-8B-49-rBVaVlyeF4-AMvdtAAjeUDkVvNo215.jpg/obras-de-salvador-dali-1-pieces-canvas-prints.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    .parallax-2{
+    height: 400px;
+    background-image: url('http://www.theartwolf.com/services/wallpapers/aivazovsky_wave-1440-900.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .parallax-3{
+    height: 400px;
+    background-image: url('http://viins.net/img/logos/logo-work-arte.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
 
-
-}
-body{
-    // background-color: black;
-}
 .navbar{
     background-color: black;
     opacity: 0.8;
@@ -39,11 +49,35 @@ body{
   position: fixed;
   width: 100%;
   height: 115px;
-//   margin-top: 90px;
   z-index: 20;
-
 }
 
 .nav-link, .navbar-brand{
     color: white;
+}
+.home{
+    border-radius: 50%;
+    border: 2px solid white;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 8px;
+}
+.obras, .curriculum{
+    margin-top: 400px;
+}
+.obras-title, .curriculum-title,.autor-name, .contact-col {
+    margin-top: 200px;
+}
+.autor{
+        margin-top: 300px;
+}
+.contact{
+    margin-top: 100px;
+    padding-bottom:200px;
+}
+
+body{
+    // background-color: black;
 }
