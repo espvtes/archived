@@ -45,10 +45,10 @@ export class Obras extends React.Component {
 							className="img-fluid w-100"
 						/>
 					</div>
-					<div className="col-12 col-sm-3 p-2">
+					<div className="col-12 col-sm-3 p-2 border bg-dark">
 						<img
 							src="https://charlenemorgan1106473.files.wordpress.com/2014/05/salvador-dalc3ac-1946-la-tentazione-di-santantonio.jpg"
-							className="img-fluid w-100"
+							className="img-fluid w-100 rounded"
 						/>
 					</div>
 					<div className="col-12 col-sm-3 p-2">

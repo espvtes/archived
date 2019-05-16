@@ -65,10 +65,18 @@ html {
     padding-top: 8px;
     margin-left: 100px;
 }
+// .autor-name{
+//     border-radius:50%;
+//     border: 2px solid black;
+//     width: 70px;
+//     height: 70px;
+//     vertical-align: middle;
+
+// }
 .obras, .curriculum{
     margin-top: 400px;
 }
-.obras-title, .curriculum-title,.autor-name, .contact-col {
+.obras-title, .curriculum-title,.autor-column, .contact-col {
     margin-top: 200px;
 }
 .autor{
@@ -80,5 +88,5 @@ html {
 }
 
 body{
-    // background-color: black;
+    // background-color:#F7E5B4;
 }

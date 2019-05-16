@@ -13,7 +13,7 @@ export class Curriculum extends React.Component {
 								<h3 className="curriculum-title">Trayectoria</h3>
 							</div>
 						</div>
-						<div className="row">
+						<div className="row shadow rounded ">
 							<div className="col-12">
 								<h3>Primeros años</h3>
 								<p>
