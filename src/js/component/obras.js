@@ -5,7 +5,7 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<section id="obras" className="container obras">
+			<section id="obras" className="obras">
 				<br />
 				<div className="row">
 					<div className="col-12">
