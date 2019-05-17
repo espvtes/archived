@@ -19,6 +19,7 @@ html {
 //     background-size: cover;
 //     background-attachment: fixed;
 // }
+
 .parallax{
     height: 800px;
     background-image: url('https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/30/Recortada/img_econcejo_20180430-194310_imagenes_lv_terceros_istock-157594445-kPPH-U443155749949hrF-992x558@LaVanguardia-Web.jpg');
@@ -27,3 +28,16 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     }
+.navbar{
+    height: 100px;
+}
+
+.navbar-brand{
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid;
+    height: 70px;
+    text-align: center;
+    padding-top: 14px;
+    margin-left: 50px;
+}
