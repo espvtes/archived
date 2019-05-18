@@ -7,7 +7,7 @@ export class Contact extends React.Component {
 			<div className="container">
 				<div className="row" id="contact">
 					<div className="col-12 contact">
-						<div className="row shadow-none bg-secondary mb-5 p-3 contact-col rounded py-4">
+						<div className="row shadow-none mb-5 p-3 contact-col rounded py-4">
 							<div className="col-12 col-sm-3">
 								<h5>Direccion:</h5>
 								<p>
