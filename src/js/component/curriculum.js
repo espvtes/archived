@@ -6,12 +6,10 @@ export class Curriculum extends React.Component {
 	render() {
 		return (
 			<div className="row parallax" id="curriculum">
-				<div className="col-12">
+				<div className="col-12 pt-4">
 					<div className="container py-4">
 						<div className="row">
-							<div className="col-12">
-								<h3 className="curriculum-title">Trayectoria</h3>
-							</div>
+							<div className="col-12" />
 						</div>
 						<div className="row ">
 							<div className="col-12">
@@ -97,7 +95,6 @@ export class Curriculum extends React.Component {
 								</Link>
 							</div>
 						</div>
-						<hr />
 					</div>
 				</div>
 			</div>

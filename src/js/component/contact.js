@@ -4,11 +4,11 @@ import "../../styles/index.scss";
 export class Contact extends React.Component {
 	render() {
 		return (
-			<div className="row parallax">
-				<div className="col-12">
-					<div className="container">
-						<div className="row" id="contact">
-							<div className="col-12 contact">
+			<div className="row parallax" id="contact">
+				<div className="col-12 pt-4">
+					<div className="container pt-4">
+						<div className="row pt-4">
+							<div className="col-12 pt-4">
 								<div className="row shadow-none mb-5 p-3 contact-col rounded py-4">
 									<div className="col-12 col-sm-3">
 										<h5>Direccion:</h5>
@@ -63,7 +63,6 @@ export class Contact extends React.Component {
 										</form>
 									</div>
 								</div>
-								<hr />
 							</div>
 						</div>
 					</div>

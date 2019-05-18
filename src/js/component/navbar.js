@@ -11,25 +11,35 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav className="navbar">
-				<ul className="nav justify-content-center ">
+				<Link to="/" className="">
+					<a className="nav-link  text-light logo">
+						<h1 className="">RG</h1>
+					</a>
+				</Link>
+				<ul className="nav justify-content-end ">
 					<li className="nav-item">
-						<a className="nav-link " href="#author">
+						<a className="nav-link text-light" href="#author">
 							Autor
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#curriculum">
+						<a className="nav-link text-light" href="#curriculum">
 							Curriculum
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#obras">
+						<a className="nav-link text-light" href="#obras">
 							Obras
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#contact">
+						<a className="nav-link text-light" href="#contact">
 							Contacto
+						</a>
+					</li>
+					<li className="nav-item border-right-0">
+						<a className="nav-link text-light" href="#">
+							Proyectos
 						</a>
 					</li>
 				</ul>

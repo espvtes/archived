@@ -5,10 +5,10 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<div className="row parallax">
-				<div className="col-12">
-					<div className="container">
-						<div id="obras" className="obras">
+			<div className="row parallax" id="obras">
+				<div className="col-12 pt-4">
+					<div className="container pt-4">
+						<div className="obras">
 							<br />
 							<div className="row">
 								<div className="col-12">

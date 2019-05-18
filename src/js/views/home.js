@@ -17,47 +17,7 @@ export class Home extends React.Component {
 				<div className="row">
 					<div className="col-12 parallax-2" />
 				</div>
-				<nav className="navbar fixed-top justify-content-center navbar-light">
-					<a className="nav-brand logo">
-						<h1 className="text-light">RG</h1>
-					</a>
-					<ul className="nav">
-						<li className="nav-item px-4">
-							<a className="nav-link text-light" href="#author">
-								<h6 className="">Autor</h6>
-							</a>
-						</li>
-						<li className="nav-item px-4">
-							<a className="nav-link text-light" href="#curriculum">
-								<h6 className="">Curriculum</h6>
-							</a>
-						</li>
-						<li className="nav-item px-4">
-							<a className="nav-link text-light" href="#obras">
-								<h6 className="">Obras</h6>
-							</a>
-						</li>
-						<li className="nav-item border-right-0 px-4">
-							<a className="nav-link text-light" href="#contact">
-								<h6 className="">Contacto</h6>
-							</a>
-						</li>
-					</ul>
-				</nav>
-				{/*<div className="row pt-4">
-					<div className="col-12 pt-4">
-						<a className="navbar-brand shadow " href="#">
-							<span className="title text-dark">RaydeL</span>
-							<br />
-							<span className="title-2 text-dark">Griñan</span>
-						</a>
-					</div>
-				</div>*/}
-				{/*<div className="row">
-					<div className="col-12 BG-line" />
-				</div>*/}
 				{/*autor*/}
-
 				<div className="row parallax">
 					<div className="col-12">
 						<div className="container">
@@ -97,9 +57,6 @@ export class Home extends React.Component {
 						</div>
 					</div>
 				</div>
-				{/*<div className="row">
-					<div className="col-12 BG-line" />
-				</div>*/}
 				<div className="row">
 					<div className="col-12 parallax-4" />
 				</div>
@@ -111,10 +68,13 @@ export class Home extends React.Component {
 				{/*curriculum*/}
 				<Curriculum />
 				<div className="row">
-					<div className="col-12 parallax-2" />
+					<div className="col-12 parallax-4" />
 				</div>
 				{/*contact*/}
 				<Contact />
+				<div className="row">
+					<div className="col-12 parallax-3" />
+				</div>
 			</div>
 		);
 	}

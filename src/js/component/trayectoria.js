@@ -3,9 +3,9 @@ import React from "react";
 export class Trayectoria extends React.Component {
 	render() {
 		return (
-			<div className="row">
-				<div className="col-12">
-					<div className="container ">
+			<div className="row py-4">
+				<div className="col-12 pt-4">
+					<div className="container py-4">
 						<div className="row py-4">
 							<div className="col-12 py-4">
 								<h3>Biografia:</h3>
