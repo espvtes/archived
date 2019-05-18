@@ -11,12 +11,37 @@ export class Home extends React.Component {
 	}
 	render() {
 		return (
-			<div className="container-fluidp-0">
+			<div className="container-fluid p-0 parallax">
+				<nav className="navbar justify-content-center navbar-light">
+					<ul className="nav  ">
+						<li className="nav-item px-4">
+							<a className="nav-link text-dark" href="#author">
+								Autor
+							</a>
+						</li>
+						<li className="nav-item px-4">
+							<a className="nav-link text-dark" href="#curriculum">
+								Curriculum
+							</a>
+						</li>
+						<li className="nav-item px-4">
+							<a className="nav-link text-dark" href="#obras">
+								Obras
+							</a>
+						</li>
+						<li className="nav-item px-4">
+							<a className="nav-link text-dark" href="#contact">
+								Contacto
+							</a>
+						</li>
+					</ul>
+				</nav>
 				<div className="row">
 					<div className="col-12">
-						<a className="navbar-brand" href="#">
-							<p className="title">RydeL</p>
-							<p className="title">Griñan</p>
+						<a className="navbar-brand shadow " href="#">
+							<span className="title text-light">RydeL</span>
+							<br />
+							<span className="title text-light">Griñan</span>
 						</a>
 					</div>
 				</div>

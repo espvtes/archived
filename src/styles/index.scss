@@ -30,12 +30,13 @@ html {
     }
 .navbar{
     height: 100px;
+    background: transparent !important;
 }
 
 .navbar-brand{
     border-radius: 50%;
     width: 132px;
-    border: 2px solid;
+    border: 2px solid #3E465B;
     height: 123px;
     text-align: center;
     padding-top: 14px;
@@ -43,4 +44,5 @@ html {
     margin-top: 75px;
     position: fixed;
     z-index: 20;
+    background-color:#3E465B;
 }

@@ -10,8 +10,8 @@ export class Navbar extends React.Component {
 	}
 	render() {
 		return (
-			<nav className="navbar navbar-light bg-light">
-				<ul className="nav">
+			<nav className="navbar parallax">
+				<ul className="nav justify-content-center ">
 					<li className="nav-item">
 						<a className="nav-link " href="#author">
 							Autor
