@@ -13,8 +13,17 @@ export class Home extends React.Component {
 		return (
 			<div className="container-fluidp-0">
 				<div className="row">
+					<div className="col-12">
+						<a className="navbar-brand" href="#">
+							<p className="title">RydeL</p>
+							<p className="title">Griñan</p>
+						</a>
+					</div>
+				</div>
+				<div className="row">
 					<div className="col-12 parallax" />
 				</div>
+
 				<div className="container">
 					{/*autor*/}
 					<div className="row pt-4" id="author">

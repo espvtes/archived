@@ -10,11 +10,7 @@ export class Navbar extends React.Component {
 	}
 	render() {
 		return (
-			<nav className="navbar fixed-top navbar-light bg-light">
-				<a className="navbar-brand" href="#">
-					<h3>RG</h3>
-				</a>
-
+			<nav className="navbar navbar-light bg-light">
 				<ul className="nav">
 					<li className="nav-item">
 						<a className="nav-link " href="#author">

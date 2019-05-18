@@ -34,10 +34,13 @@ html {
 
 .navbar-brand{
     border-radius: 50%;
-    width: 70px;
+    width: 132px;
     border: 2px solid;
-    height: 70px;
+    height: 123px;
     text-align: center;
     padding-top: 14px;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-top: 75px;
+    position: fixed;
+    z-index: 20;
 }
