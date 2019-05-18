@@ -95,17 +95,17 @@ body{
     background-color: transparent !important;
     font-family: 'Indie Flower', cursive;
 }
-.logo{
-    border-radius: 50%;
-    border: 2px solid white;
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    text-align: center;
-    padding-top: 13px;
-    /* padding-right: 15px; */
-    padding-left: 13px;
-}
+// .logo{
+//     border-radius: 50%;
+//     border: 2px solid white;
+//     width: 80px;
+//     height: 80px;
+//     overflow: hidden;
+//     text-align: center;
+//     padding-top: 13px;
+//     /* padding-right: 15px; */
+//     padding-left: 13px;
+// }
 .title{
     margin-left: -38px;
 }
@@ -166,4 +166,94 @@ body{
 
 .relation:hover .overlay {
   opacity: 1;
+}
+
+// button-navbar
+.logo {
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    // font-size: 28px;
+    // padding: 20px;
+    width: 97px;
+    height: 97px;
+    transition: all 0.5s;
+
+
+}
+.logo h1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.logo h1:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.logo:hover h1 {
+  padding-right: 25px;
+}
+h1{
+    font-size: 34px;
+}
+
+.logo:hover h1:after{
+  opacity: 1;
+  right: 0;
+}
+
+
+
+// button-component
+.logo-comp {
+    border-radius: 8px;
+    /* border: 2px solid white; */
+    background-color: #e3a413;
+    color: #0b0808;
+    text-align: center;
+    font-size: 10px;
+    padding: 8px;
+    width: 109px;
+    height: 40px;
+    transition: all 0.5s;
+}
+.logo-comp h4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.logo-comp h4:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+h4{
+    font-size: 15px;
+}
+.logo-comp:hover h4 {
+  padding-right: 30px;
+}
+
+
+.logo-comp:hover h4:after{
+  opacity: 1;
+  right: 0;
+}
+
+.img-obras{
+    height: 80%;
 }

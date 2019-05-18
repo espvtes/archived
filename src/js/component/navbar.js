@@ -11,11 +11,12 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav className="navbar">
-				<Link to="/" className="">
-					<a className="nav-link  text-light logo">
-						<h1 className="">RG</h1>
-					</a>
+				<Link to="/">
+					<button type="button" className="nav-link  text-light logo">
+						<h1 className="title-button">RG</h1>
+					</button>
 				</Link>
+
 				<ul className="nav justify-content-end ">
 					<li className="nav-item">
 						<a className="nav-link text-light" href="#author">

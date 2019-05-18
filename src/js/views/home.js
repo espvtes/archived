@@ -20,10 +20,10 @@ export class Home extends React.Component {
 				{/*autor*/}
 				<div className="row parallax">
 					<div className="col-12">
-						<div className="container">
+						<div className="container" id="author">
 							<div className="row py-4">
 								<div className="col-12 autor py-4 rounded">
-									<div className="row py-4" id="author">
+									<div className="row py-4">
 										<div className="col-12 col-sm-3">
 											<img
 												src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Salvador_Dali_NYWTS.jpg/220px-Salvador_Dali_NYWTS.jpg"
