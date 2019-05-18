@@ -5,15 +5,15 @@ import "../../styles/index.scss";
 export class Curriculum extends React.Component {
 	render() {
 		return (
-			<div className="container">
-				<div className="row curriculum" id="curriculum">
-					<div className="col-12">
+			<div className="row parallax" id="curriculum">
+				<div className="col-12">
+					<div className="container py-4">
 						<div className="row">
 							<div className="col-12">
 								<h3 className="curriculum-title">Trayectoria</h3>
 							</div>
 						</div>
-						<div className="row shadow rounded ">
+						<div className="row ">
 							<div className="col-12">
 								<h3>Primeros años</h3>
 								<p>

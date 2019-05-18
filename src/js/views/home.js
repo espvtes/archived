@@ -13,9 +13,15 @@ export class Home extends React.Component {
 	}
 	render() {
 		return (
-			<div className="container-fluid p-0 parallax">
+			<div className="container-fluid p-0">
+				<div className="row">
+					<div className="col-12 parallax-2" />
+				</div>
 				<nav className="navbar fixed-top justify-content-center navbar-light">
-					<ul className="nav  ">
+					<a className="nav-brand logo">
+						<h1 className="text-light">RG</h1>
+					</a>
+					<ul className="nav">
 						<li className="nav-item px-4">
 							<a className="nav-link text-light" href="#author">
 								<h6 className="">Autor</h6>
@@ -47,40 +53,55 @@ export class Home extends React.Component {
 						</a>
 					</div>
 				</div>*/}
-				<div className="row">
-					<div className="col-12 parallax" />
-				</div>
-
+				{/*<div className="row">
+					<div className="col-12 BG-line" />
+				</div>*/}
 				{/*autor*/}
-				<div className="autor">
-					<div className="row py-4" id="author">
-						<div className="col-12 col-sm-3 pt-4">
-							<img
-								src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Salvador_Dali_NYWTS.jpg/220px-Salvador_Dali_NYWTS.jpg"
-								className="img-fluid w-100"
-							/>
-						</div>
-						<div className="col-12 col-sm-9 pt-4 text-justify">
-							<h4>Mi obra</h4>
-							<p>
-								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-								piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-								McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
-								the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-								the cites of the word in classical literature, discovered the undoubtable source.
-							</p>
-							<p>
-								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-								piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
-								McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
-								the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-								the cites of the word in classical literature, discovered the undoubtable source.
-							</p>
+
+				<div className="row parallax">
+					<div className="col-12">
+						<div className="container">
+							<div className="row py-4">
+								<div className="col-12 autor py-4 rounded">
+									<div className="row py-4" id="author">
+										<div className="col-12 col-sm-3">
+											<img
+												src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Salvador_Dali_NYWTS.jpg/220px-Salvador_Dali_NYWTS.jpg"
+												className="img-fluid w-100"
+											/>
+										</div>
+										<div className="col-12 col-sm-9 text-justify">
+											<h4>Mi obra</h4>
+											<p>
+												Contrary to popular belief, Lorem Ipsum is not simply random text. It
+												has roots in a piece of classical Latin literature from 45 BC, making it
+												over 2000 years old. Richard McClintock, a Latin professor at
+												Hampden-Sydney College in Virginia, looked up one of the more obscure
+												Latin words, consectetur, from a Lorem Ipsum passage, and going through
+												the cites of the word in classical literature, discovered the
+												undoubtable source.
+											</p>
+											<p>
+												Contrary to popular belief, Lorem Ipsum is not simply random text. It
+												has roots in a piece of classical Latin literature from 45 BC, making it
+												over 2000 years old. Richard McClintock, a Latin professor at
+												Hampden-Sydney College in Virginia, looked up one of the more obscure
+												Latin words, consectetur, from a Lorem Ipsum passage, and going through
+												the cites of the word in classical literature, discovered the
+												undoubtable source.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+				{/*<div className="row">
+					<div className="col-12 BG-line" />
+				</div>*/}
 				<div className="row">
-					<div className="col-12 parallax-2" />
+					<div className="col-12 parallax-4" />
 				</div>
 				{/*obras*/}
 				<Obras />
@@ -90,13 +111,10 @@ export class Home extends React.Component {
 				{/*curriculum*/}
 				<Curriculum />
 				<div className="row">
-					<div className="col-12 parallax-4" />
+					<div className="col-12 parallax-2" />
 				</div>
 				{/*contact*/}
 				<Contact />
-				<div className="row">
-					<div className="col-12 parallax" />
-				</div>
 			</div>
 		);
 	}
