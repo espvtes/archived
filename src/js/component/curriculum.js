@@ -90,7 +90,7 @@ export class Curriculum extends React.Component {
 						</div>
 						<div className="row">
 							<div className="col-12 text-center py-4">
-								<Link to="/ver-mas">
+								<Link to="/resume">
 									<button type="button" className="btn btn-warning">
 										Ver mas...
 									</button>

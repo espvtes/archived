@@ -14,45 +14,45 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid p-0 parallax">
-				<nav className="navbar justify-content-center navbar-light">
+				<nav className="navbar fixed-top justify-content-center navbar-light">
 					<ul className="nav  ">
 						<li className="nav-item px-4">
-							<a className="nav-link text-dark" href="#author">
-								Autor
+							<a className="nav-link text-light" href="#author">
+								<h6 className="">Autor</h6>
 							</a>
 						</li>
 						<li className="nav-item px-4">
-							<a className="nav-link text-dark" href="#curriculum">
-								Curriculum
+							<a className="nav-link text-light" href="#curriculum">
+								<h6 className="">Curriculum</h6>
 							</a>
 						</li>
 						<li className="nav-item px-4">
-							<a className="nav-link text-dark" href="#obras">
-								Obras
+							<a className="nav-link text-light" href="#obras">
+								<h6 className="">Obras</h6>
 							</a>
 						</li>
-						<li className="nav-item px-4">
-							<a className="nav-link text-dark" href="#contact">
-								Contacto
+						<li className="nav-item border-right-0 px-4">
+							<a className="nav-link text-light" href="#contact">
+								<h6 className="">Contacto</h6>
 							</a>
 						</li>
 					</ul>
 				</nav>
-				<div className="row">
-					<div className="col-12">
+				{/*<div className="row pt-4">
+					<div className="col-12 pt-4">
 						<a className="navbar-brand shadow " href="#">
-							<span className="title text-light">RaydeL</span>
+							<span className="title text-dark">RaydeL</span>
 							<br />
-							<span className="title-2 text-light">Griñan</span>
+							<span className="title-2 text-dark">Griñan</span>
 						</a>
 					</div>
-				</div>
+				</div>*/}
 				<div className="row">
 					<div className="col-12 parallax" />
 				</div>
 
 				{/*autor*/}
-				<div className="container">
+				<div className="autor">
 					<div className="row py-4" id="author">
 						<div className="col-12 col-sm-3 pt-4">
 							<img

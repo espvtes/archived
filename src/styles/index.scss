@@ -6,6 +6,16 @@ html {
   scroll-behavior: smooth;
 
 }
+.autor{
+    // background-color:transparent !important;
+    // opacity: 0.7;
+    // filter: Alpha(opacity=50);
+    // margin-top: 50px;
+    padding: 0px 50px 0px 50px;
+}
+.main-container{
+    background-color: transparent !important;
+}
 // .jumbotron{
 //     position:fixed;
 // }
@@ -55,9 +65,14 @@ html {
 
 .navbar{
     height: 100px;
-    background: transparent !important;
+    background-color:black;
+    opacity: 0.7;
+    filter: Alpha(opacity=50);
+    margin-top: 50px;
 }
-
+.nav-item{
+    border-right: 1px solid white;
+}
 .navbar-brand{
     border-radius: 50%;
     width: 132px;
@@ -65,18 +80,77 @@ html {
     height: 132px;
     text-align: center;
     padding-top: 31px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-top: 75px;
     position: fixed;
     z-index: 20;
-    background-color:#3E465B;
+    background-color: transparent !important;
     font-family: 'Indie Flower', cursive;
+    // // background-color:black;
+    // opacity: 0.7;
+    // filter: Alpha(opacity=50);
 }
 
 .title{
     margin-left: -38px;
 }
 .title-2{
-    margin-left: 30px;
+    margin-left: 46px;
 }
 
+.galeria{
+    background-image: url('https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/30/Recortada/img_econcejo_20180430-194310_imagenes_lv_terceros_istock-157594445-kPPH-U443155749949hrF-992x558@LaVanguardia-Web.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.galeria-body{
+    margin-top: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.navbar-brand {
+    border-radius: 50%;
+    width: 87px;
+    border: 2px solid #3E465B;
+    height: 88px;
+    text-align: center;
+    padding-top: 18px;
+    margin-left: 15px;
+    margin-top: 75px;
+    position: fixed;
+    z-index: 20;
+    background-color: #3E465B;
+    font-family: 'Indie Flower', cursive;
+}
+.title {
+    margin-left: -18px;
+    font-size: 12px;
+    /* margin-top: 38px; */
+}
+.title-2 {
+    margin-left: 15px;
+    font-size: 12px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
