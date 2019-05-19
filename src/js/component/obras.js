@@ -5,9 +5,9 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<div className="row obras parallax" id="obras">
+			<div className="row obras bg-secondary" id="obras">
 				<div className="col-12 pt-4">
-					<div className="container pt-4">
+					<div className="container rounded py-4">
 						<div className="row">
 							<div className="col-12">
 								<h2>Obras...</h2>
@@ -16,10 +16,10 @@ export class Obras extends React.Component {
 						<div className="row pt-4">
 							<div className="col-12 pt-4">
 								<div className="row">
-									<div className="col-12 col-sm-3">
+									<div className="col-12 col-sm-3 ">
 										<img
 											src="http://1.bp.blogspot.com/-l7vkTs5HeFw/URi9-mzILAI/AAAAAAAAAX0/1zG6fTf93MI/s1600/Galeria%2Bpinturas%2Bespatula%2Boleo%2B%25284%2529.jpg"
-											className="img-fluid w-100 img-obras"
+											className="img-fluid w-100 img-obras rounded"
 										/>
 									</div>
 									<div className="col-12 col-sm-3">

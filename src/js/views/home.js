@@ -40,7 +40,7 @@ export class Home extends React.Component {
 					<div className="col-12 parallax-2" />
 				</div>
 				{/*autor*/}
-				<div className="row parallax">
+				<div className="row">
 					<div className="col-12">
 						<div className="container" id="author">
 							<div className="row py-4">
@@ -94,9 +94,6 @@ export class Home extends React.Component {
 				</div>
 				{/*contact*/}
 				<Contact />
-				<div className="row">
-					<div className="col-12 parallax-3" />
-				</div>
 			</div>
 		);
 	}

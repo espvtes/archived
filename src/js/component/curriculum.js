@@ -5,7 +5,7 @@ import "../../styles/index.scss";
 export class Curriculum extends React.Component {
 	render() {
 		return (
-			<div className="row parallax" id="curriculum">
+			<div className="row" id="curriculum" style={{ backgroundColor: "#C6CBCC" }}>
 				<div className="col-12 pt-4">
 					<div className="container py-4">
 						<div className="row">
