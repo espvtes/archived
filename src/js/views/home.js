@@ -11,9 +11,31 @@ export class Home extends React.Component {
 		super(props);
 		this.myRef = React.createRef();
 	}
+	componentDidMount() {
+		window.onscroll = function() {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("scroll-button").style.display = "block";
+			} else {
+				document.getElementById("scroll-button").style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	}
 	render() {
 		return (
 			<div className="container-fluid p-0">
+				<button onClick="topFunction()" id="scroll-button" title="Go to top">
+					Up
+				</button>
 				<div className="row">
 					<div className="col-12 parallax-2" />
 				</div>
