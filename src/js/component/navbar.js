@@ -10,7 +10,7 @@ export class Navbar extends React.Component {
 	}
 	render() {
 		return (
-			<nav className="navbar">
+			<nav className="navbar parallax">
 				<Link to="/">
 					<button type="button" className="nav-link  text-light logo">
 						<h1 className="title-button">RG</h1>

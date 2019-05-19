@@ -2,14 +2,11 @@ import React from "react";
 
 export class Galeria extends React.Component {
 	render() {
-		const bgStyle = {
-			backgroundColor: "black"
-		};
 		return (
 			<div className="container-fluid galeria">
-				<div className="container shadow rounded py-4 galeria-body" style={bgStyle}>
+				<div className="container shadow rounded py-4 galeria-body" style={{ backgroundColor: "#C6CBCC" }}>
 					<div className="row">
-						<div className="col-12 text-light">
+						<div className="col-12">
 							<h3>Erika Kayne. Digital Collage</h3>
 							<p>
 								I am a paragraph. Click here to add your own text and edit me. It is easy. Just click
@@ -34,15 +31,14 @@ export class Galeria extends React.Component {
 										src="https://files.genial.guru/files/news/part_55/554810/2005310-whereverimayroam-1512147079-650-d8e386d660-1515540101.jpg"
 										className="img-fluid w-100 h-100"
 									/>
-									<div className="overlay">
-										<h5 className="card-title">Card title</h5>
-										<p className="card-text">
-											This card has supporting text below as a natural lead-in to additional
-											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
-										</p>
+									<div className="row overlay">
+										<div className="col-12">
+											<h5 className="card-title">Card title</h5>
+											<p className="card-text">
+												This card has supporting text below as a natural lead-in to additional
+												content.
+											</p>
+										</div>
 									</div>
 								</div>
 								<div className="col-12 col-md-6 relation p-2">
@@ -55,9 +51,6 @@ export class Galeria extends React.Component {
 										<p className="card-text">
 											This card has supporting text below as a natural lead-in to additional
 											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
 										</p>
 									</div>
 								</div>
@@ -74,9 +67,6 @@ export class Galeria extends React.Component {
 											This card has supporting text below as a natural lead-in to additional
 											content.
 										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
-										</p>
 									</div>
 								</div>
 								<div className="col-12 col-md-6 relation p-2">
@@ -89,9 +79,6 @@ export class Galeria extends React.Component {
 										<p className="card-text">
 											This card has supporting text below as a natural lead-in to additional
 											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
 										</p>
 									</div>
 								</div>
@@ -108,9 +95,6 @@ export class Galeria extends React.Component {
 											This card has supporting text below as a natural lead-in to additional
 											content.
 										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
-										</p>
 									</div>
 								</div>
 								<div className="col-12 col-md-6 relation p-2">
@@ -123,9 +107,6 @@ export class Galeria extends React.Component {
 										<p className="card-text">
 											This card has supporting text below as a natural lead-in to additional
 											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
 										</p>
 									</div>
 								</div>
@@ -142,9 +123,6 @@ export class Galeria extends React.Component {
 											This card has supporting text below as a natural lead-in to additional
 											content.
 										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
-										</p>
 									</div>
 								</div>
 								<div className="col-12 col-md-6 relation p-2">
@@ -157,9 +135,6 @@ export class Galeria extends React.Component {
 										<p className="card-text">
 											This card has supporting text below as a natural lead-in to additional
 											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
 										</p>
 									</div>
 								</div>
@@ -176,9 +151,6 @@ export class Galeria extends React.Component {
 											This card has supporting text below as a natural lead-in to additional
 											content.
 										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
-										</p>
 									</div>
 								</div>
 								<div className="col-12 col-md-6 relation p-2">
@@ -191,9 +163,6 @@ export class Galeria extends React.Component {
 										<p className="card-text">
 											This card has supporting text below as a natural lead-in to additional
 											content.
-										</p>
-										<p className="card-text">
-											<small className="text-muted">Last updated 3 mins ago</small>
 										</p>
 									</div>
 								</div>
