@@ -4,7 +4,7 @@ import "../../styles/index.scss";
 export class Contact extends React.Component {
 	render() {
 		return (
-			<div className="row" id="contact">
+			<div className="row" id="contact" style={{ backgroundColor: "black", color: "white" }}>
 				<div className="col-12 pt-4">
 					<div className="container pt-4">
 						<div className="row pt-4">

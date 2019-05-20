@@ -5,7 +5,15 @@ import "../../styles/index.scss";
 export class Curriculum extends React.Component {
 	render() {
 		return (
-			<div className="row" id="curriculum" style={{ backgroundColor: "#C6CBCC" }}>
+			<div
+				className="row"
+				id="curriculum"
+				style={{
+					backgroundImage:
+						"url('https://chainimage.com/images/download-texture-paint-texture-paints-background-download-photo.jpg')",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat"
+				}}>
 				<div className="col-12 pt-4">
 					<div className="container py-4">
 						<div className="row">

@@ -10,36 +10,35 @@ export class Navbar extends React.Component {
 	}
 	render() {
 		return (
-			<nav className="navbar navbar-light parallax-2">
-				<Link to="/">
+			<nav className="navbar  navbar-light" style={{ backgroundColor: "black" }}>
+				{/*<Link to="/">
 					<button type="button" className="nav-link  text-light logo">
 						<h1 className="title-button">RG</h1>
 					</button>
-				</Link>
-
+				</Link>*/}
 				<ul className="nav justify-content-end ">
-					<li className="nav-item" style={{ borderRight: "1px solid black" }}>
-						<a className="nav-link" href="#author" style={{ color: "black", fontSize: "20px" }}>
+					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
+						<a className="nav-link" href="#author" style={{ color: "white" }}>
 							Autor
 						</a>
 					</li>
-					<li className="nav-item" style={{ borderRight: "1px solid black" }}>
-						<a className="nav-link" href="#curriculum" style={{ color: "black", fontSize: "20px" }}>
+					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
+						<a className="nav-link" href="#curriculum" style={{ color: "white" }}>
 							Curriculum
 						</a>
 					</li>
-					<li className="nav-item" style={{ borderRight: "1px solid black" }}>
-						<a className="nav-link" href="#obras" style={{ color: "black", fontSize: "20px" }}>
+					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
+						<a className="nav-link" href="#obras" style={{ color: "white" }}>
 							Obras
 						</a>
 					</li>
-					<li className="nav-item" style={{ borderRight: "1px solid black" }}>
-						<a className="nav-link" href="#contact" style={{ color: "black", fontSize: "20px" }}>
+					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
+						<a className="nav-link" href="#contact" style={{ color: "white" }}>
 							Contacto
 						</a>
 					</li>
-					<li className="nav-item border-right-0" style={{ borderRight: "1px solid black" }}>
-						<a className="nav-link" href="#" style={{ color: "black", fontSize: "20px" }}>
+					<li className="nav-item border-right-0">
+						<a className="nav-link" href="#" style={{ color: "white" }}>
 							Proyectos
 						</a>
 					</li>

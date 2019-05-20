@@ -42,43 +42,24 @@ html {
     background-size: cover;
     }
 .parallax-3{
-    background-image: url('https://i2.wp.com/www.lja.mx/wp-content/uploads/2016/07/ArtesPlasticas.jpeg?fit=2880%2C1800&ssl=1');
-    height: 400px;
+    background-image: url('http://1.bp.blogspot.com/-ZDf52F3AikA/UvAAXaNDZCI/AAAAAAAAALM/88MC3_lzi5E/s1920/10.jpg');
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax-4{
-    background-image: url('https://i.ytimg.com/vi/TBxT5yGBAzA/maxresdefault.jpg');
-    height: 500px;
+    background-image: url('https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-244060.jpg');
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.navbar{
-    // height: 150px;
-    // background-color:#7b7e80;
-}
-.nav-item{
-    // border-right: 1px solid black;
-}
-// .navbar-brand{
-//     border-radius: 50%;
-//     width: 132px;
-//     border: 2px solid #3E465B;
-//     height: 132px;
-//     text-align: center;
-//     padding-top: 31px;
-//     margin-left: 50px;
-//     margin-top: 75px;
-//     position: fixed;
-//     z-index: 20;
-//     background-color: transparent !important;
-//     font-family: 'Indie Flower', cursive;
-// }
+
+
 
 .galeria{
     background-image: url('https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/30/Recortada/img_econcejo_20180430-194310_imagenes_lv_terceros_istock-157594445-kPPH-U443155749949hrF-992x558@LaVanguardia-Web.jpg');
@@ -138,20 +119,20 @@ html {
 // button-navbar
 .logo {
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid white;
     background-color:transparent !important;
     text-align: center;
     width: 97px;
     height: 97px;
     transition: all 0.5s;
-    margin-top: 23px;
+  
 }
 .logo h1 {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
-  color:black;
+  color:white;
 }
 
 .logo h1:after{

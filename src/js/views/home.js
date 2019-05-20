@@ -4,6 +4,7 @@ import { Navbar } from "../component/navbar.js";
 import { Obras } from "../component/obras.js";
 import { Curriculum } from "../component/curriculum.js";
 import { Contact } from "../component/contact.js";
+import { Jumbotron } from "../component/jumbotron.js";
 import "../../styles/home.scss";
 
 export class Home extends React.Component {
@@ -36,20 +37,28 @@ export class Home extends React.Component {
 				<button onClick="topFunction()" id="scroll-button" title="Go to top">
 					Up
 				</button>
+
 				<div className="row">
 					<div className="col-12 parallax-2" />
 				</div>
 				{/*autor*/}
-				<div className="row">
+				<div
+					className="row"
+					style={{
+						backgroundImage:
+							"url('https://chainimage.com/images/download-texture-paint-texture-paints-background-download-photo.jpg')",
+						backgroundSize: "cover",
+						backgroundRepeat: "no-repeat"
+					}}>
 					<div className="col-12">
 						<div className="container" id="author">
 							<div className="row py-4">
-								<div className="col-12 autor py-4 rounded">
+								<div className="col-12 autor py-4">
 									<div className="row py-4">
 										<div className="col-12 col-sm-3">
 											<img
 												src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Salvador_Dali_NYWTS.jpg/220px-Salvador_Dali_NYWTS.jpg"
-												className="img-fluid w-100"
+												className="img-fluid w-100 rounded"
 											/>
 										</div>
 										<div className="col-12 col-sm-9 text-justify">
@@ -80,17 +89,17 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-12 parallax-3" />
+					<div className="col-12 parallax-4" />
 				</div>
 
 				<Obras />
 				<div className="row">
-					<div className="col-12 parallax-3" />
+					<div className="col-12 parallax-4" />
 				</div>
 
 				<Curriculum />
 				<div className="row">
-					<div className="col-12 parallax-3" />
+					<div className="col-12 parallax-4" />
 				</div>
 
 				<Contact />

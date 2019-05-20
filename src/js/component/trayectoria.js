@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Navbar } from "../component/navbar.js";
 export class Trayectoria extends React.Component {
 	render() {
 		return (
