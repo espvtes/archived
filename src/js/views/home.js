@@ -80,19 +80,19 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-12 parallax-4" />
+					<div className="col-12 parallax-3" />
 				</div>
-				{/*obras*/}
+
 				<Obras />
 				<div className="row">
 					<div className="col-12 parallax-3" />
 				</div>
-				{/*curriculum*/}
+
 				<Curriculum />
 				<div className="row">
-					<div className="col-12 parallax-4" />
+					<div className="col-12 parallax-3" />
 				</div>
-				{/*contact*/}
+
 				<Contact />
 			</div>
 		);

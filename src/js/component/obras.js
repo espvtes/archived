@@ -5,7 +5,7 @@ import "../../styles/index.scss";
 export class Obras extends React.Component {
 	render() {
 		return (
-			<div className="row obras bg-secondary" id="obras">
+			<div className="row obras " id="obras" style={{ backgroundColor: "transparent !important" }}>
 				<div className="col-12 pt-4">
 					<div className="container rounded py-4">
 						<div className="row">
