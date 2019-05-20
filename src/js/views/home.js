@@ -25,7 +25,6 @@ export class Home extends React.Component {
 			}
 		}
 
-		// When the user clicks on the button, scroll to the top of the document
 		function topFunction() {
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
@@ -46,9 +45,10 @@ export class Home extends React.Component {
 					className="row"
 					style={{
 						backgroundImage:
-							"url('https://chainimage.com/images/download-texture-paint-texture-paints-background-download-photo.jpg')",
+							"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
 						backgroundSize: "cover",
-						backgroundRepeat: "no-repeat"
+						backgroundRepeat: "no-repeat",
+						color: "white"
 					}}>
 					<div className="col-12">
 						<div className="container" id="author">
@@ -89,19 +89,16 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<div className="row">
-					<div className="col-12 parallax-4" />
+					<div className="col-12 parallax-3" />
 				</div>
-
 				<Obras />
 				<div className="row">
 					<div className="col-12 parallax-4" />
 				</div>
-
 				<Curriculum />
 				<div className="row">
-					<div className="col-12 parallax-4" />
+					<div className="col-12 parallax-5" />
 				</div>
-
 				<Contact />
 			</div>
 		);

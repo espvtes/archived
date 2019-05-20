@@ -5,7 +5,7 @@ export class Trayectoria extends React.Component {
 		return (
 			<div className="row bg-secondary py-4">
 				<div className="col-12 pt-4">
-					<div className="container py-4">
+					<div className="container py-4 rounded">
 						<div className="row py-4">
 							<div className="col-12 text-light py-4">
 								<h3>Biografia:</h3>

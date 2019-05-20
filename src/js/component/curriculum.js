@@ -10,9 +10,10 @@ export class Curriculum extends React.Component {
 				id="curriculum"
 				style={{
 					backgroundImage:
-						"url('https://chainimage.com/images/download-texture-paint-texture-paints-background-download-photo.jpg')",
+						"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
 					backgroundSize: "cover",
-					backgroundRepeat: "no-repeat"
+					backgroundRepeat: "no-repeat",
+					color: "white"
 				}}>
 				<div className="col-12 pt-4">
 					<div className="container py-4">

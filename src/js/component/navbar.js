@@ -10,12 +10,19 @@ export class Navbar extends React.Component {
 	}
 	render() {
 		return (
-			<nav className="navbar  navbar-light" style={{ backgroundColor: "black" }}>
-				{/*<Link to="/">
+			<nav
+				className="navbar  navbar-light"
+				style={{
+					backgroundImage:
+						"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat"
+				}}>
+				<Link to="/">
 					<button type="button" className="nav-link  text-light logo">
 						<h1 className="title-button">RG</h1>
 					</button>
-				</Link>*/}
+				</Link>
 				<ul className="nav justify-content-end ">
 					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
 						<a className="nav-link" href="#author" style={{ color: "white" }}>

@@ -4,7 +4,16 @@ import "../../styles/index.scss";
 export class Contact extends React.Component {
 	render() {
 		return (
-			<div className="row" id="contact" style={{ backgroundColor: "black", color: "white" }}>
+			<div
+				className="row"
+				id="contact"
+				style={{
+					backgroundImage:
+						"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat",
+					color: "white"
+				}}>
 				<div className="col-12 pt-4">
 					<div className="container pt-4">
 						<div className="row pt-4">
