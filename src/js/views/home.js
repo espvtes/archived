@@ -5,6 +5,7 @@ import { Obras } from "../component/obras.js";
 import { Curriculum } from "../component/curriculum.js";
 import { Contact } from "../component/contact.js";
 import { Jumbotron } from "../component/jumbotron.js";
+import { Project } from "../component/project.js";
 import "../../styles/home.scss";
 
 export class Home extends React.Component {
@@ -18,7 +19,7 @@ export class Home extends React.Component {
 		};
 
 		function scrollFunction() {
-			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 				document.getElementById("scroll-button").style.display = "block";
 			} else {
 				document.getElementById("scroll-button").style.display = "none";
@@ -98,6 +99,10 @@ export class Home extends React.Component {
 				<Curriculum />
 				<div className="row">
 					<div className="col-12 parallax-5" />
+				</div>
+				<Project />
+				<div className="row">
+					<div className="col-12 parallax-4" />
 				</div>
 				<Contact />
 			</div>
