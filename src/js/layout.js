@@ -7,6 +7,7 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import { Gallery } from "./views/gallery.js";
 import { Resume } from "./views/resume.js";
+import { Procesos } from "./component/procesos.js";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
@@ -28,6 +29,7 @@ export class Layout extends React.Component {
 							<Route path="/demo" component={Demo} />
 							<Route path="/gallery" component={Gallery} />
 							<Route path="/resume" component={Resume} />
+							<Route path="/procesos" component={Procesos} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />
 						</Switch>

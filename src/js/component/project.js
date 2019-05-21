@@ -1,27 +1,78 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export class Project extends React.Component {
 	render() {
 		return (
 			<div className="row">
 				<div className="col-12">
-					<div className="row">
-						<div col-12>
-							<h3>Proyectos</h3>
+					<div className="container">
+						<div className="row">
+							<div className="col-12">
+								<h3>Proyectos</h3>
+							</div>
 						</div>
-					</div>
-					<div className="row">
-						<div className="col-12 col-md-6">
-							<img
-								src="https://nosolotendencias.es/wp-content/uploads/2017/04/Proceso-creaci%C3%B3n-de-Arinze-Stanley.jpg"
-								className="img-fluid w-100"
-							/>
+						<div className="card-deck">
+							<div className="card">
+								<img
+									src="https://nosolotendencias.es/wp-content/uploads/2017/04/Proceso-creaci%C3%B3n-de-Arinze-Stanley.jpg"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is a longer card with supporting text below as a natural lead-in to
+										additional content. This content is a little bit longer.
+									</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated 3 mins ago</small>
+									</p>
+								</div>
+							</div>
+							<div className="card">
+								<img
+									src="https://nosolotendencias.es/wp-content/uploads/2017/04/Proceso-creaci%C3%B3n-de-Arinze-Stanley.jpg"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This card has supporting text below as a natural lead-in to additional content.
+									</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated 3 mins ago</small>
+									</p>
+								</div>
+							</div>
+							<div className="card">
+								<img
+									src="https://nosolotendencias.es/wp-content/uploads/2017/04/Proceso-creaci%C3%B3n-de-Arinze-Stanley.jpg"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Card title</h5>
+									<p className="card-text">
+										This is a wider card with supporting text below as a natural lead-in to
+										additional content. This card has even longer content than the first to show
+										that equal height action.
+									</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated 3 mins ago</small>
+									</p>
+								</div>
+							</div>
 						</div>
-						<div className="col-12 col-md-6">
-							<img
-								src="https://www.salirconarte.com/wp-content/uploads/2017/08/photorealistic-pencil-drawings-renaissance-hyperrealism-emanuele-dascanio-25.jpg"
-								className="img-fluid w-100"
-							/>
+						<div className="row">
+							<div className="col-12">
+								<Link to="/procesos">
+									<button type="button" className="logo-comp">
+										<h4>Procesos...</h4>
+									</button>
+								</Link>
+							</div>
 						</div>
 					</div>
 				</div>
