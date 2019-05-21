@@ -45,7 +45,7 @@ export class Navbar extends React.Component {
 						</a>
 					</li>
 					<li className="nav-item border-right-0">
-						<a className="nav-link" href="#" style={{ color: "white" }}>
+						<a className="nav-link" href="#project" style={{ color: "white" }}>
 							Proyectos
 						</a>
 					</li>

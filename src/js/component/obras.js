@@ -64,7 +64,7 @@ export class Obras extends React.Component {
 						</div>
 						<div className="row py-4">
 							<div className="col-12 text-center">
-								<Link to="/gallery">
+								<Link to="/galeria">
 									<button type="button" className="logo-comp">
 										<h4>Galeria</h4>
 									</button>

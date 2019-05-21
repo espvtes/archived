@@ -4,11 +4,20 @@ import { Link } from "react-router-dom";
 export class Project extends React.Component {
 	render() {
 		return (
-			<div className="row">
+			<div
+				className="row"
+				style={{
+					backgroundImage:
+						"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
+					backgroundSize: "cover",
+					backgroundRepeat: "no-repeat",
+					color: "white"
+				}}
+				id="project">
 				<div className="col-12">
-					<div className="container">
-						<div className="row">
-							<div className="col-12">
+					<div className="container py-4">
+						<div className="row py-4">
+							<div className="col-12 py-4">
 								<h3>Proyectos</h3>
 							</div>
 						</div>
@@ -19,7 +28,7 @@ export class Project extends React.Component {
 									className="card-img-top"
 									alt="..."
 								/>
-								<div className="card-body">
+								<div className="card-body text-dark">
 									<h5 className="card-title">Card title</h5>
 									<p className="card-text">
 										This is a longer card with supporting text below as a natural lead-in to
@@ -36,7 +45,7 @@ export class Project extends React.Component {
 									className="card-img-top"
 									alt="..."
 								/>
-								<div className="card-body">
+								<div className="card-body text-dark">
 									<h5 className="card-title">Card title</h5>
 									<p className="card-text">
 										This card has supporting text below as a natural lead-in to additional content.
@@ -52,7 +61,7 @@ export class Project extends React.Component {
 									className="card-img-top"
 									alt="..."
 								/>
-								<div className="card-body">
+								<div className="card-body text-dark">
 									<h5 className="card-title">Card title</h5>
 									<p className="card-text">
 										This is a wider card with supporting text below as a natural lead-in to
@@ -65,11 +74,11 @@ export class Project extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="row">
-							<div className="col-12">
+						<div className="row py-4">
+							<div className="col-12 text-center pt-4">
 								<Link to="/procesos">
 									<button type="button" className="logo-comp">
-										<h4>Procesos...</h4>
+										<h4>Procesos</h4>
 									</button>
 								</Link>
 							</div>

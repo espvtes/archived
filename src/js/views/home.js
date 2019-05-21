@@ -34,7 +34,7 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid p-0">
-				<button onClick="topFunction()" id="scroll-button" title="Go to top">
+				<button onClick="topFunction()" id="scroll-button" title="Go to top" href="#top">
 					Up
 				</button>
 
