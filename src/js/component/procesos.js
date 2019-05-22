@@ -3,7 +3,7 @@ import React from "react";
 export class Procesos extends React.Component {
 	render() {
 		return (
-			<div className="row ">
+			<div className="row " style={{ backgroundColor: "black" }}>
 				<div className="col-12">
 					<div className="container py-4">
 						<div className="row pt-4">
