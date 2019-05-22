@@ -8,9 +8,10 @@ import { Single } from "./views/single";
 import { Galeria } from "./component/galeria.js";
 import { Trayectoria } from "./component/trayectoria.js";
 import { Procesos } from "./component/procesos.js";
+import { Sample } from "./component/sample.js";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
+// import { Navbar } from "./component/navbar";
 // import { Footer } from "./component/footer";
 
 //create your first component
@@ -23,12 +24,13 @@ export class Layout extends React.Component {
 			<div className="d-flex flex-column h-100">
 				<BrowserRouter>
 					<ScrollToTop>
-						<Navbar href="#id" />
+						{/*<Navbar href="#id" />*/}
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
 							<Route path="/galeria" component={Galeria} />
 							<Route path="/trayectoria" component={Trayectoria} />
+							<Route path="/sample" component={Sample} />
 							<Route path="/procesos" component={Procesos} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />

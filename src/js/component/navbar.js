@@ -11,7 +11,7 @@ export class Navbar extends React.Component {
 	render() {
 		return (
 			<nav
-				className="navbar  navbar-light"
+				className="navbar  navbar-light sticky"
 				style={{
 					backgroundImage:
 						"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
