@@ -37,10 +37,6 @@ export class Home extends React.Component {
 				<button onClick="topFunction()" id="scroll-button" title="Go to top" href="#top">
 					Up
 				</button>
-
-				<div className="row">
-					<div className="col-12 parallax-2" />
-				</div>
 				{/*jumbotron*/}
 				<div className="row">
 					<div className="col-12">
@@ -56,6 +52,10 @@ export class Home extends React.Component {
 					</div>
 				</div>
 				<Navbar />
+				<div className="row">
+					<div className="col-12 parallax-2" />
+				</div>
+
 				{/*autor*/}
 				<div
 					className="row"
