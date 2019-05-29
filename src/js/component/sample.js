@@ -21,25 +21,7 @@ export class Sample extends React.Component {
 							</div>
 						</div>
 						{/*navbar*/}
-						<nav className="navbar navbar-light bg-light sticky">
-							<a className="navbar-brand" href="#">
-								<img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="" />
-							</a>
-							<nav className="nav">
-								<a className="nav-link active" href="#">
-									Active
-								</a>
-								<a className="nav-link" href="#">
-									Link
-								</a>
-								<a className="nav-link" href="#">
-									Link
-								</a>
-								<a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">
-									Disabled
-								</a>
-							</nav>
-						</nav>
+						<Navbar />
 						<div className="row">
 							<div className="col-12">
 								<div className="container">

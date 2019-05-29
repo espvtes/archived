@@ -80,7 +80,8 @@ html {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -211,7 +212,7 @@ h4{
 }
 //scroll-button
 #scroll-button{
-    display: none;
+   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -237,11 +238,11 @@ h4{
     margin-top: 100px;
 }
 
-nav.sticky{
-    position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-//   background-color: yellow;
-  padding: 50px;
-  font-size: 20px;
-}
+// nav.sticky{
+// position: -webkit-sticky;
+//   position: sticky;
+//   top: 0;
+// //   background-color: yellow;
+//   padding: 50px;
+//   font-size: 20px;
+// }
