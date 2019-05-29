@@ -130,9 +130,10 @@ html {
     border: 2px solid white;
     background-color:transparent !important;
     text-align: center;
-    width: 97px;
-    height: 97px;
-    transition: all 0.5s;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 .logo h1 {
@@ -143,26 +144,26 @@ html {
   color:white;
 }
 
-.logo h1:after{
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
+// .logo h1:after{
+//   content: '\00bb';
+//   position: absolute;
+//   opacity: 0;
+//   top: 0;
+//   right: -20px;
+//   transition: 0.5s;
+// }
 
-.logo:hover h1 {
-  padding-right: 25px;
-}
+// .logo:hover h1 {
+//   padding-right: 25px;
+// }
 h1{
     font-size: 34px;
 }
 
-.logo:hover h1:after{
-  opacity: 1;
-  right: 0;
-}
+// .logo:hover h1:after{
+//   opacity: 1;
+//   right: 0;
+// }
 
 
 

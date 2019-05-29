@@ -37,21 +37,6 @@ export class Home extends React.Component {
 				<button onClick="topFunction()" id="scroll-button" title="Go to top" href="#top">
 					Up
 				</button>
-				{/*jumbotron*/}
-				<div className="row">
-					<div className="col-12">
-						<div className="jumbotron jumbotron-fluid">
-							<div className="container">
-								<h1 className="display-4">Fluid jumbotron</h1>
-								<p className="lead">
-									This is a modified jumbotron that occupies the entire horizontal space of its
-									parent.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<Navbar />
 				<div className="row">
 					<div className="col-12 parallax-2" />
 				</div>
