@@ -4,8 +4,8 @@ export class Galeria extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid galeria">
-				<div className="container shadow rounded py-4 galeria-body" style={{ backgroundColor: "#C6CBCC" }}>
-					<div className="row">
+				<div className="container galeria-body shadow rounded py-4 " style={{ backgroundColor: "#C6CBCC" }}>
+					<div className="row ">
 						<div className="col-12">
 							<h3>Erika Kayne. Digital Collage</h3>
 							<p>
