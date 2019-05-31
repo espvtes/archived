@@ -18,11 +18,11 @@ export class Navbar extends React.Component {
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat"
 				}}>
-				<Link to="/">
-					<button type="button" className="nav-link  text-light logo">
+				<button type="button" className="text-light logo">
+					<Link to="/">
 						<h1 className="title-button">RG</h1>
-					</button>
-				</Link>
+					</Link>
+				</button>
 				<ul className="nav justify-content-end ">
 					<li className="nav-item" style={{ borderRight: "1px solid white" }}>
 						<a className="nav-link" href="#author" style={{ color: "white" }}>

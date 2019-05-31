@@ -100,8 +100,23 @@ html {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1014px) {
+    .title-button{
+        font-size: 1.5rem;
+        padding-top: 7px;
+    }
+    .logo {
+        border-radius: 50%;
+        border: 2px solid white;
+        background-color:transparent !important;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
 
+    }
 }
 
 // overlay
@@ -134,6 +149,7 @@ html {
     height: 80px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-decoration: none;
 
 }
 .logo h1 {
@@ -247,3 +263,4 @@ position: -webkit-sticky;
   padding: 50px;
   font-size: 20px;
 }
+
