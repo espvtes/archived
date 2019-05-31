@@ -100,7 +100,7 @@ html {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1014px) {
+@media only screen and (min-width: 1024px) {
     .title-button{
         font-size: 1.5rem;
         padding-top: 7px;
@@ -114,7 +114,6 @@ html {
         height: 60px;
         margin-top: 10px;
         margin-bottom: 10px;
-        text-decoration: none;
 
     }
 }
@@ -140,18 +139,18 @@ html {
 }
 
 // button-navbar
-.logo {
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color:transparent !important;
-    text-align: center;
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
+// .logo {
+//     border-radius: 50%;
+//     border: 2px solid white;
+//     background-color:transparent !important;
+//     text-align: center;
+//     width: 80px;
+//     height: 80px;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//     text-decoration: none;
 
-}
+// }
 .logo h1 {
   cursor: pointer;
   display: inline-block;
