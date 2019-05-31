@@ -52,8 +52,8 @@ export class Home extends React.Component {
 						color: "white"
 					}}>
 					<div className="col-12">
-						<div className="container" id="author">
-							<div className="row py-4">
+						<div className="container">
+							<div className="row py-4" id="author">
 								<div className="col-12 autor py-4">
 									<div className="row py-4">
 										<div className="col-12 col-sm-3">

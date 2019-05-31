@@ -6,7 +6,7 @@ export class Curriculum extends React.Component {
 	render() {
 		return (
 			<div
-				className="row"
+				className="row py-4"
 				id="curriculum"
 				style={{
 					backgroundImage:

@@ -6,7 +6,7 @@ export class Obras extends React.Component {
 	render() {
 		return (
 			<div
-				className="row obras"
+				className="row obras py-4"
 				id="obras"
 				style={{
 					backgroundImage:
