@@ -102,12 +102,14 @@ export class Galeria extends React.Component {
 										src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
 										className="img-fluid w-100 h-100 rounded"
 									/>
-									<div className="overlay">
-										<h5 className="card-title">Card title</h5>
-										<p className="card-text">
-											This card has supporting text below as a natural lead-in to additional
-											content.
-										</p>
+									<div className="row overlay">
+										<div className="col-12">
+											<h5 className="card-title">Card title</h5>
+											<p className="card-text">
+												This card has supporting text below as a natural lead-in to additional
+												content.
+											</p>
+										</div>
 									</div>
 								</div>
 							</div>

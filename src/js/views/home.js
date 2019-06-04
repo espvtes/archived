@@ -43,7 +43,7 @@ export class Home extends React.Component {
 
 				{/*autor*/}
 				<div
-					className="row"
+					className="row p-0"
 					style={{
 						backgroundImage:
 							"url('https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-negro-2.jpg')",
@@ -52,18 +52,18 @@ export class Home extends React.Component {
 						color: "white"
 					}}>
 					<div className="col-12">
-						<div className="container">
+						<div className="container p-0">
 							<div className="row py-4" id="author">
 								<div className="col-12 autor py-4">
 									<div className="row py-4">
 										<div className="col-12 col-sm-3">
 											<img
 												src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Salvador_Dali_NYWTS.jpg/220px-Salvador_Dali_NYWTS.jpg"
-												className="img-fluid w-100 rounded"
+												className="img-fluid w-100 shadow rounded"
 											/>
 										</div>
 										<div className="col-12 col-sm-9 text-justify">
-											<h4>Mi obra</h4>
+											<h4 className="obra-title">Mi obra</h4>
 											<p>
 												Contrary to popular belief, Lorem Ipsum is not simply random text. It
 												has roots in a piece of classical Latin literature from 45 BC, making it
