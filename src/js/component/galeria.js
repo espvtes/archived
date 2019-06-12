@@ -23,6 +23,30 @@ export class Galeria extends React.Component {
 							</p>
 						</div>
 					</div>
+					<div className="row">
+						<div className="col-12 col-sm-3">
+							<img
+								src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+								className="img-fluid w-100"
+							/>
+						</div>
+						<div className="col-12 col-sm-3">
+							<img
+								src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+								className="img-fluid w-100"
+							/>
+						</div>
+						<div className="col-12 col-sm-3">
+							<img
+								src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+								className="img-fluid w-100"
+							/>
+						</div>
+						<div className="col-12 col-sm-3">
+							<img src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg" />
+						</div>
+					</div>
+
 					{/*<div className="row">
 						<div className="col-12">
 							<div className="row">
