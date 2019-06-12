@@ -4,7 +4,37 @@ export class Galeria extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid galeria">
-				<div className="container galeria-body shadow rounded py-4 " style={{ backgroundColor: "#C6CBCC" }}>
+				<div className="row galeria-body">
+					<div className="col-12 col-md-6 relation">
+						<img
+							src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+							className="img-fluid w-100"
+						/>
+						<div className="row overlay">
+							<div className="col-12">
+								<h5 className="card-title">Card title</h5>
+								<p className="card-text">
+									This card has supporting text below as a natural lead-in to additional content.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-12 col-md-6 relation">
+						<img
+							src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+							className="img-fluid w-100"
+						/>
+						<div className="row overlay">
+							<div className="col-12">
+								<h5 className="card-title">Card title</h5>
+								<p className="card-text">
+									This card has supporting text below as a natural lead-in to additional content.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				{/*<div className="container galeria-body shadow rounded py-4 " style={{ backgroundColor: "#C6CBCC" }}>
 					<div className="row ">
 						<div className="col-12">
 							<h3>Erika Kayne. Digital Collage</h3>
@@ -43,7 +73,10 @@ export class Galeria extends React.Component {
 							/>
 						</div>
 						<div className="col-12 col-sm-3">
-							<img src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg" />
+							<img
+								src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
+								className="img-fluid w-100"
+							/>
 						</div>
 					</div>
 
@@ -194,8 +227,8 @@ export class Galeria extends React.Component {
 								</div>
 							</div>
 						</div>
-					</div>*/}
-				</div>
+					</div>
+				</div>*/}
 			</div>
 		);
 	}
