@@ -23,10 +23,10 @@ export class Galeria extends React.Component {
 							</p>
 						</div>
 					</div>
-					<div className="row">
+					{/*<div className="row">
 						<div className="col-12">
 							<div className="row">
-								<div className="col-12 col-md-6 relation p-2">
+								<div className="col-12 col-md-6 relation p-2 ">
 									<img
 										src="https://files.genial.guru/files/news/part_55/554810/2005310-whereverimayroam-1512147079-650-d8e386d660-1515540101.jpg"
 										className="img-fluid w-100 h-100 rounded"
@@ -41,7 +41,7 @@ export class Galeria extends React.Component {
 										</div>
 									</div>
 								</div>
-								<div className="col-12 col-md-6 relation p-2">
+								<div className="col-12 col-md-6 relation p-2 ">
 									<img
 										src="https://images.curiator.com/images/t_x/art/zxh0qbdwscvqlrbgnbfp/marco-grassi-blue-shawl.jpg"
 										className="img-fluid w-100 h-100 rounded"
@@ -170,7 +170,7 @@ export class Galeria extends React.Component {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div>*/}
 				</div>
 			</div>
 		);
