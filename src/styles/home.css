@@ -1,0 +1,16 @@
+.jumbotron{
+	background-image: url('https://totenart.com/tutoriales/wp-content/uploads/2017/05/vinho_na_tela_4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.navbar{
+	background-color: black;
+}
+.nav-img{
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.img-autor{
+    border: 4px solid #cfa006;
+	border-radius: 50%; 
+}
