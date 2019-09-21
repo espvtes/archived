@@ -1,0 +1,260 @@
+/*
+    General Styles
+*/
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+.autor{
+    background-color:transparent !important;
+    // opacity: 0.7;
+    // filter: Alpha(opacity=50);
+    // margin-top: 50px;
+    padding: 0px 50px 0px 50px;
+}
+.logo{
+    margin-left: 150px;
+}
+.BG-line{
+    background-color: black;
+    height: 80px;
+    // opacity: 0.7;
+    // filter: Alpha(opacity=50);
+}
+
+.parallax{
+    height: auto;
+    background-image: url('https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/30/Recortada/img_econcejo_20180430-194310_imagenes_lv_terceros_istock-157594445-kPPH-U443155749949hrF-992x558@LaVanguardia-Web.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    }
+.parallax-2{
+    background-image: url('https://i2.wp.com/www.lja.mx/wp-content/uploads/2016/07/ArtesPlasticas.jpeg?fit=2880%2C1800&ssl=1');
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    }
+.parallax-3{
+    background-image: url('https://i2.wp.com/stepbysteppainting.net/wp-content/uploads/2018/01/Photo-Jan-27-10-29-29-AM.jpg?ssl=1');
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-4{
+    background-image: url('https://i0.wp.com/www.tarijaencien.com/wp-content/uploads/2018/04/pinturas-oleo-brochas-pinceles-paleta-Fondos-de-Pantalla-HD-professor-falken.com_.jpg?fit=1500%2C1000&ssl=1');
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-5{
+    background-image: url('https://cmsassets.mybluprint.com/dims4/default/9fc621d/2147483647/strip/true/crop/3333x3333+834+0/resize/1200x1200!/quality/90/?url=https%3A%2F%2Fcmsassets.mybluprint.com%2F54%2F4d%2Fdd7f5bf64bdaa1f9ac2850519e7f%2F5-paint-paintsforcanvas-hero-anna-kolosyuk-481874-unsplash.jpg');
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;}
+
+
+
+
+.galeria{
+    background-image: url('https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/30/Recortada/img_econcejo_20180430-194310_imagenes_lv_terceros_istock-157594445-kPPH-U443155749949hrF-992x558@LaVanguardia-Web.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.galeria-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1024px) {
+    .title-button{
+        font-size: 1.5rem;
+        padding-top: 7px;
+    }
+    .logo {
+        border-radius: 50%;
+        border: 2px solid white;
+        background-color:transparent !important;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    .py-4 {
+        padding-top: 3.5rem !important;
+    }
+    .galeria-body {
+        margin-top: 143px;
+        margin-bottom: 50px;
+    }
+    .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 95%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+    margin: 0px;
+}
+
+.relation:hover .overlay {
+  opacity: 1;
+}
+}
+
+
+
+
+
+.logo h1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color:white;
+}
+h1{
+    font-size: 34px;
+}
+
+
+
+
+// button-component
+.logo-comp {
+    border-radius: 8px;
+    /* border: 2px solid white; */
+    background-color: #e3a413;
+    color: #0b0808;
+    text-align: center;
+    font-size: 10px;
+    padding: 8px;
+    width: 109px;
+    height: 40px;
+    transition: all 0.5s;
+}
+.logo-comp h4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.logo-comp h4:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+h4{
+    font-size: 15px;
+}
+.logo-comp:hover h4 {
+  padding-right: 30px;
+}
+
+
+.logo-comp:hover h4:after{
+  opacity: 1;
+  right: 0;
+}
+
+.img-obras{
+    height: 80%;
+}
+//scroll-button
+#scroll-button{
+   display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+#scroll-button:hover {
+  background-color: #555;
+}
+
+.QV{
+    transform: translateY(0px);
+    opacity: 1;
+    margin-top: 100px;
+}
+
+nav.sticky{
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+//   background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+}
+
+//zoom styles apply
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
